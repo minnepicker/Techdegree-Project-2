@@ -6,7 +6,7 @@ Create logic that can iterate through all 18 players and assign them to teams su
 Finally, the program should output a text file named -- teams.txt -- that contains the league roster listing the team name, and each player on the team including the player's information: name, whether they've played soccer before and their guardians' names.
 To complete each part of this project, use ONLY the concepts and techniques we have covered in the courses so far.
 
-* Before you start *
+*** Before you start ***
 
 To prepare for this project you'll need to make sure you complete and understand these steps.
 
@@ -17,7 +17,7 @@ Read the instructions carefully - we suggest twice, at least.
 Download the player data spreadsheet.
 You’ll certainly need your computer to complete the project, but you may want to begin by sketching out your ideas/code with a pencil and paper.
 
-* Project Instructions *
+*** Project Instructions ***
 
 To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.
 
@@ -33,7 +33,7 @@ Joe Smith, NO, Bob and Jamie Smith
 Before you submit your project for review, make sure you can check off all of the items on the Student Project Submission Checklist. The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!
 If you are stuck on how to get started with this project, have a look at the Project-01 Study Guide.
 
-* Extra Credit *
+*** Extra Credit ***
 
 To get an "exceeds" rating, you can expand on the project in the following ways:
 

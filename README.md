@@ -6,7 +6,7 @@ Create logic that can iterate through all 18 players and assign them to teams su
 Finally, the program should output a text file named -- teams.txt -- that contains the league roster listing the team name, and each player on the team including the player's information: name, whether they've played soccer before and their guardians' names.
 To complete each part of this project, use ONLY the concepts and techniques we have covered in the courses so far.
 
-*** Before you start ***
+** Before you start **
 
 To prepare for this project you'll need to make sure you complete and understand these steps.
 

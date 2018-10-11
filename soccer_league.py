@@ -64,7 +64,7 @@ def make_teams(players):
     return dragons, sharks, raptors
 
 
-# create teams.txt with a list of which players are on which team
+# create a string out of each team for use in message
 def make_team_string(team):
     team_players = ""
     if team:
@@ -79,6 +79,7 @@ def make_team_string(team):
     return team
 
 
+# create teams.txt with a list of which players are on which team
 def create_league_roster(dragons, sharks, raptors, extra):
     message = ""
     players = ""

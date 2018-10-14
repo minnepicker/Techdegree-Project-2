@@ -133,7 +133,7 @@ def create_dragon_letters(dragons, sharks, raptors):
             message = '''
     Dear {},
 
-    I am plesed to inform you that {} will be playing for the {} this year.
+    I am pleased to inform you that {} will be playing for the {} this year.
 
     The first practice will be November 1 at 4:00pm.
 
@@ -145,15 +145,21 @@ def create_dragon_letters(dragons, sharks, raptors):
 
 
 if __name__ == '__main__':
+    # Read csv to dict and make sure there is an even number of players
     all_players, extra = split_list('soccer_players.csv')
+    # Split players into the teams
     dragons, sharks, raptors = make_teams(all_players)
+    # Coerce team dicts to strings
     dragons_string = make_team_string(dragons)
     sharks_string = make_team_string(sharks)
     raptors_string = make_team_string(raptors)
+    # Coerce extra players dict to a string
     extra_string = make_team_string(extra)
+    # Output league roster to .txt
     create_league_roster(
         dragons_string,
         sharks_string,
         raptors_string,
         extra_string,)
+    # Output letter to each player as .txt
     create_dragon_letters(dragons, sharks, raptors)
